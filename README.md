@@ -12,7 +12,7 @@
 
 # Turso PHP Ecosystem
 
-This repository is the overview of the Turso SDK family for PHP that I develop and maintain — the installer, the native extension, the HTTP client, a fully typed Platform API client, and the Laravel/Symfony integrations, together with example applications. Everything listed below is current as of November 2026, published on GitHub (and Packagist where applicable), and covered by CI.
+This repository is the overview of the Turso SDK family for PHP that I develop and maintain — the installer, the native extension, the HTTP client, a fully typed Platform API client, and the Laravel/Symfony integrations. Everything listed below is current as of November 2026, published on GitHub (and Packagist where applicable), and covered by CI.
 
 ## Table of Contents
 
@@ -24,10 +24,8 @@ This repository is the overview of the Turso SDK family for PHP that I develop a
   - [Platform API](#platform-api)
   - [Laravel](#laravel)
     - [Laravel Packages](#laravel-packages)
-    - [Laravel Examples](#laravel-examples)
   - [Symfony](#symfony)
     - [Symfony Packages](#symfony-packages)
-    - [Symfony Examples](#symfony-examples)
   - [Quality & verification](#quality--verification)
 
 ## At a glance
@@ -89,12 +87,6 @@ Here is the list of Laravel packages that I have created.
 - [Turso Platform Laravel](https://github.com/darkterminal/turso-platform-laravel) - Laravel integration for the **Turso Platform API** SDK: auto-discovered Service Provider, publishable config (`turso-platform-config`), `TursoPlatform` Facade — `composer require darkterminal/turso-platform-laravel`
 - [Turso HTTP Laravel](https://github.com/darkterminal/turso-http-laravel) - Turso / libSQL HTTP SDK for Laravel
 
-### Laravel Examples
-
-- [Turso Laravel Tenancy](https://github.com/darkterminal/turso-laravel-tenancy) - Example [Tenancy for Laravel](https://tenancyforlaravel.com/) Starter with **Turso Driver Laravel** <sup>([Required](#native-extension))</sup>
-- [Turso + Laravel + Jetstream](https://github.com/darkterminal/turso-laravel-jetstream) - Example Laravel Jetstream Starter with **Turso Driver Laravel** <sup>([Required](#native-extension))</sup>
-- [Turso + Laravel + Breeze](https://github.com/darkterminal/turso-laravel-breeze) - Example Laravel Breeze Starter with **Turso Driver Laravel** <sup>([Required](#native-extension))</sup>
-
 ## Symfony
 
 Here is the list of Symfony packages/integrations that I have created.
@@ -102,11 +94,6 @@ Here is the list of Symfony packages/integrations that I have created.
 ### Symfony Packages
 
 - [Turso Doctrine DBAL](https://github.com/tursodatabase/turso-doctrine-dbal) - A LibSQL Driver for Doctrine DBAL with Native libSQL <sup>([Required](#native-extension))</sup>
-
-### Symfony Examples
-
-- [PHP Todo List Doctrine DBAL](https://github.com/tursodatabase/examples/tree/master/php-todo-list-doctrine-dbal) - A PHP Todo CLI app <sup>([Required](#native-extension))</sup>
-- [Symfony Rest API CRUD](https://github.com/tursodatabase/examples/tree/master/symfony7-rest-api-crud) - Example Symfony - Rest API CRUD <sup>([Required](#native-extension))</sup>
 
 ## Quality & verification
 
