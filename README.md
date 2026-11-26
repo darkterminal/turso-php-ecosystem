@@ -4,7 +4,9 @@
   </a>
 </p>
 
-![Turso PHP Ecosystem](https://i.imgur.com/EJTo6Zo.png)
+<p align="center">
+  <img src="art/turso-php-ecosystem-banner.png" alt="Turso PHP Ecosystem" width="1000">
+</p>
 
 # Turso PHP Ecosystem
 
