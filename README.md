@@ -1,14 +1,12 @@
-![Turso PHP Ecosystem](https://i.imgur.com/EJTo6Zo.png)
-
 <p align="center">
-  <a href="https://discord.gg/turso">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://i.imgur.com/UhuW3zm.png">
-      <source media="(prefers-color-scheme: light)" srcset="https://i.imgur.com/vljWbfr.png">
-      <img alt="Shows a black logo in light color mode and a white one in dark color mode." src="https://i.imgur.com/vGCC0I4.png">
-    </picture>
+  <a href="https://discord.gg/9eAaMnJtfY">
+    <img src="art/support-my-work-banner.png" alt="Support my work - Turso PHP Ecosystem" width="1000">
   </a>
 </p>
+
+![Turso PHP Ecosystem](https://i.imgur.com/EJTo6Zo.png)
+
+
 
 # Turso PHP Ecosystem
 
