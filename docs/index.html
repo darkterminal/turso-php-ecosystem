@@ -1,0 +1,147 @@
+---
+layout: default
+title: Official Landing Page
+description: Official landing page for the Turso PHP Ecosystem — PHP packages for libSQL/Turso workflows.
+---
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="grid-lines"></div>
+  </div>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">PHP · libSQL · Turso</p>
+      <h1>Build PHP apps with the <em>Turso PHP Ecosystem</em>.</h1>
+      <p class="lead">A curated set of open-source packages for installing the native libSQL extension, connecting over HTTP, managing Turso Platform resources, and integrating with Laravel and Doctrine DBAL.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#packages">Explore packages</a>
+        <a class="btn btn-secondary" href="https://discord.gg/9eAaMnJtfY" target="_blank" rel="noopener">Join Discord</a>
+      </div>
+      <div class="hero-meta">
+        <div><span class="meta-num">{{ site.data.packages | size }}</span><span class="meta-label">Active packages</span></div>
+        <div><span class="meta-num">PHP</span><span class="meta-label">Community-first</span></div>
+        <div><span class="meta-num">OSS</span><span class="meta-label">Open source</span></div>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="logo-cloud">
+        {% for pkg in site.data.packages %}
+        <div class="logo-chip" style="--accent: {{ pkg.accent }};">
+          <img src="{{ '/images/logos/' | append: pkg.logo | relative_url }}" alt="" loading="lazy">
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="paths">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Choose a path</p>
+      <h2>Pick the integration that fits your stack.</h2>
+      <p>Use native extension for deep local/libSQL integration, HTTP for extension-free environments, Platform API for management, or framework packages for Laravel/Doctrine workflows.</p>
+    </div>
+    <div class="path-grid">
+      <article class="path-card">
+        <div class="path-icon">⚡</div>
+        <h3>Native extension</h3>
+        <p>Install <code>libsql</code> with the installer, then use native drivers for performance and local/embedded replica workflows.</p>
+        <ul><li>Turso PHP Installer</li><li>Turso Client PHP</li><li>Driver Laravel / Doctrine DBAL</li></ul>
+      </article>
+      <article class="path-card">
+        <div class="path-icon">🌐</div>
+        <h3>HTTP client</h3>
+        <p>Connect through Hrana-over-HTTP when you cannot install a native extension, including shared hosting or constrained CI runners.</p>
+        <ul><li>Turso Client HTTP</li><li>Pure PHP, ext-curl</li><li>Simple remote access</li></ul>
+      </article>
+      <article class="path-card">
+        <div class="path-icon">🛠️</div>
+        <h3>Platform API</h3>
+        <p>Manage Turso Platform resources from PHP with a typed SDK and Laravel adapter for application-level automation.</p>
+        <ul><li>Turso API Client PHP</li><li>Turso Platform Laravel</li><li>Typed, OpenAPI-pinned</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="packages">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Active packages</p>
+      <h2>The ecosystem, at a glance.</h2>
+      <p>All packages below are active and maintained in the Turso PHP Ecosystem. Archived packages are intentionally excluded.</p>
+    </div>
+    <div class="package-grid">
+      {% for pkg in site.data.packages %}
+      <article class="pkg-card" style="--accent: {{ pkg.accent }};">
+        <div class="pkg-top">
+          <img class="pkg-logo" src="{{ '/images/logos/' | append: pkg.logo | relative_url }}" alt="{{ pkg.name }} logo" loading="lazy" width="72" height="72">
+          <span class="pkg-cat">{{ pkg.category }}</span>
+        </div>
+        <h3>{{ pkg.name }}</h3>
+        <p class="pkg-desc">{{ pkg.description }}</p>
+        <div class="pkg-install"><code>{{ pkg.install }}</code></div>
+        <div class="pkg-links">
+          <a href="{{ pkg.docs }}" target="_blank" rel="noopener">Docs / Repo</a>
+          <a href="https://github.com/{{ pkg.repo }}" target="_blank" rel="noopener" class="muted">{{ pkg.repo }}</a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="quickstart">
+  <div class="container quickstart-grid">
+    <div>
+      <p class="eyebrow">Quick start</p>
+      <h2>Start from the path you need.</h2>
+      <p>Use the native installer for extension-based workflows, or pick a Composer package directly. Every card above links to the canonical repository/docs.</p>
+      <div class="note-box">
+        <strong>Scope note</strong>
+        <p>This ecosystem focuses on PHP packages and integrations around libSQL/Turso workflows. For community support, use the Discord and keep discussions in plain English.</p>
+      </div>
+    </div>
+    <div class="code-panel">
+      <div class="code-head"><span>Terminal</span><span class="dots"><i></i><i></i><i></i></span></div>
+      <pre><code><span class="c"># Native extension installer</span>
+composer global require darkterminal/turso-php-installer
+turso-php-installer install
+
+<span class="c"># HTTP client (no extension)</span>
+composer require darkterminal/turso-client-http
+
+<span class="c"># Platform API SDK</span>
+composer require darkterminal/turso-api-client-php
+
+<span class="c"># Laravel / Doctrine integrations</span>
+composer require darkterminal/turso-platform-laravel
+composer require tursodatabase/turso-driver-laravel
+composer require tursodatabase/turso-doctrine-dbal</code></pre>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="community">
+  <div class="container community-grid">
+    <div>
+      <p class="eyebrow">Community</p>
+      <h2>Built in the open, for PHP developers.</h2>
+      <p>Join the Turso PHP Ecosystem Discord for package discussion, help, and showcase. Keep it technical, respectful, and in plain English. Do not share tokens or secrets.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://discord.gg/9eAaMnJtfY" target="_blank" rel="noopener">Join Discord</a>
+        <a class="btn btn-secondary" href="https://github.com/darkterminal/turso-php-ecosystem" target="_blank" rel="noopener">Ecosystem repo</a>
+      </div>
+    </div>
+    <div class="support-card">
+      <img src="{{ '/images/support-my-work-banner.png' | relative_url }}" alt="Support my work banner" loading="lazy" width="1220" height="256">
+      <p>Support the work behind the ecosystem through GitHub Sponsors or Saweria.</p>
+      <div class="pkg-links">
+        <a href="https://github.com/sponsors/darkterminal" target="_blank" rel="noopener">GitHub Sponsors</a>
+        <a href="https://saweria.co/darkterminal" target="_blank" rel="noopener">Saweria</a>
+      </div>
+    </div>
+  </div>
+</section>

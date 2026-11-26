@@ -11,12 +11,6 @@
     "url": "https://github.com/darkterminal/turso-client-http/releases/tag/v3.0.1",
     "published_at": "2026-11-11T17:20:05Z"
   },
-  "darkterminal/turso-http-laravel": {
-    "id": null,
-    "published_at": null,
-    "tag": null,
-    "url": null
-  },
   "darkterminal/turso-php-installer": {
     "id": 450033293,
     "tag": "2.2.3",

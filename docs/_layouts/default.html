@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-baseurl="{{ site.baseurl }}">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include header.html %}
+  <main id="main">{{ content }}</main>
+  {% include footer.html %}
+  <script src="{{ '/assets/js/landing.js' | relative_url }}"></script>
+</body>
+</html>

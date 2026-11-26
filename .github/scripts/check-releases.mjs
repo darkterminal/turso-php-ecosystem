@@ -15,7 +15,6 @@ const repos = [
   { repo: 'darkterminal/turso-platform-laravel', name: 'turso-platform-laravel', channelHint: '#turso-platform-laravel' },
   { repo: 'tursodatabase/turso-driver-laravel', name: 'turso-driver-laravel', channelHint: '#turso-driver-laravel' },
   { repo: 'tursodatabase/turso-doctrine-dbal', name: 'turso-doctrine-dbal', channelHint: '#turso-doctrine-dbal' },
-  { repo: 'darkterminal/turso-http-laravel', name: 'turso-http-laravel', channelHint: '#turso-http-laravel' },
 ];
 
 const statePath = new URL('./release-state.json', import.meta.url);

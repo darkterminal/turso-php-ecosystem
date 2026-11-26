@@ -1,0 +1,63 @@
+- key: turso-php-installer
+  name: Turso PHP Installer
+  repo: darkterminal/turso-php-installer
+  logo: turso-php-installer-logo.png
+  category: Installer
+  description: Install, update, or uninstall the native libSQL PHP extension on Linux and macOS.
+  install: composer global require darkterminal/turso-php-installer
+  docs: https://github.com/darkterminal/turso-php-installer
+  accent: "#f4bf3f"
+- key: turso-client-php
+  name: Turso Client PHP
+  repo: tursodatabase/turso-client-php
+  logo: turso-client-php.png
+  category: Native Extension
+  description: The upstream libSQL native extension for PHP. Use it directly or through framework drivers.
+  install: "Install via Turso PHP Installer; see repository README."
+  docs: https://github.com/tursodatabase/turso-client-php
+  accent: "#4ee4a5"
+- key: turso-client-http
+  name: Turso Client HTTP
+  repo: darkterminal/turso-client-http
+  logo: turso-client-http.png
+  category: HTTP Client
+  description: Pure PHP Hrana-over-HTTP client for libSQL/Turso. No native extension required.
+  install: composer require darkterminal/turso-client-http
+  docs: https://github.com/darkterminal/turso-client-http
+  accent: "#58c7ff"
+- key: turso-api-client-php
+  name: Turso API Client PHP
+  repo: darkterminal/turso-api-client-php
+  logo: turso-api-platform-php.png
+  category: Platform API
+  description: Typed Turso Platform API client, pinned to OpenAPI and covered by CI.
+  install: composer require darkterminal/turso-api-client-php
+  docs: https://github.com/darkterminal/turso-api-client-php
+  accent: "#9f7aea"
+- key: turso-platform-laravel
+  name: Turso Platform Laravel
+  repo: darkterminal/turso-platform-laravel
+  logo: turso-platform-laravel.png
+  category: Laravel
+  description: Laravel adapter for the Turso Platform API SDK with config publishing and Facade.
+  install: composer require darkterminal/turso-platform-laravel
+  docs: https://github.com/darkterminal/turso-platform-laravel
+  accent: "#ff7b72"
+- key: turso-driver-laravel
+  name: Turso Driver Laravel
+  repo: tursodatabase/turso-driver-laravel
+  logo: turso-driver-laravel.png
+  category: Laravel
+  description: Laravel database driver powered by the native libSQL extension.
+  install: composer require tursodatabase/turso-driver-laravel
+  docs: https://github.com/tursodatabase/turso-driver-laravel
+  accent: "#ffb454"
+- key: turso-doctrine-dbal
+  name: Turso Doctrine DBAL
+  repo: tursodatabase/turso-doctrine-dbal
+  logo: turso-doctrine-dbal.png
+  category: Doctrine
+  description: Doctrine DBAL driver for libSQL/Turso using the native PHP extension.
+  install: composer require tursodatabase/turso-doctrine-dbal
+  docs: https://tursodatabase.github.io/turso-doctrine-dbal/
+  accent: "#4fd1c5"

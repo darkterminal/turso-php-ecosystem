@@ -68,15 +68,5 @@
     "description": "Doctrine DBAL driver over native libSQL.",
     "install": "composer require tursodatabase/turso-doctrine-dbal",
     "docs": "https://github.com/tursodatabase/turso-doctrine-dbal"
-  },
-  {
-    "key": "turso-http-laravel",
-    "name": "Turso HTTP Laravel",
-    "repo": "darkterminal/turso-http-laravel",
-    "package": "darkterminal/turso-http-laravel",
-    "channel": "#turso-http-laravel",
-    "description": "Laravel wrapper for the Turso HTTP client.",
-    "install": "composer require darkterminal/turso-http-laravel",
-    "docs": "https://github.com/darkterminal/turso-http-laravel"
   }
 ]
