@@ -1,0 +1,50 @@
+{
+  "darkterminal/turso-api-client-php": {
+    "id": 442908696,
+    "published_at": "2026-11-12T12:20:54Z",
+    "tag": "v2.1.0",
+    "url": "https://github.com/darkterminal/turso-api-client-php/releases/tag/v2.1.0"
+  },
+  "darkterminal/turso-client-http": {
+    "id": 441990228,
+    "published_at": "2026-11-11T17:20:05Z",
+    "tag": "v3.0.1",
+    "url": "https://github.com/darkterminal/turso-client-http/releases/tag/v3.0.1"
+  },
+  "darkterminal/turso-http-laravel": {
+    "id": null,
+    "published_at": null,
+    "tag": null,
+    "url": null
+  },
+  "darkterminal/turso-php-installer": {
+    "id": 450033293,
+    "published_at": "2026-11-18T13:33:36Z",
+    "tag": "2.2.3",
+    "url": "https://github.com/darkterminal/turso-php-installer/releases/tag/2.2.3"
+  },
+  "darkterminal/turso-platform-laravel": {
+    "id": 442936021,
+    "published_at": "2026-11-12T12:45:08Z",
+    "tag": "v1.1.0",
+    "url": "https://github.com/darkterminal/turso-platform-laravel/releases/tag/v1.1.0"
+  },
+  "tursodatabase/turso-client-php": {
+    "id": 450033292,
+    "published_at": "2026-11-18T13:33:36Z",
+    "tag": "turso-php-extension-v1.7.1",
+    "url": "https://github.com/tursodatabase/turso-client-php/releases/tag/turso-php-extension-v1.7.1"
+  },
+  "tursodatabase/turso-doctrine-dbal": {
+    "id": null,
+    "published_at": null,
+    "tag": null,
+    "url": null
+  },
+  "tursodatabase/turso-driver-laravel": {
+    "id": 457059118,
+    "published_at": "2026-11-24T16:49:27Z",
+    "tag": "1.7.1",
+    "url": "https://github.com/tursodatabase/turso-driver-laravel/releases/tag/1.7.1"
+  }
+}

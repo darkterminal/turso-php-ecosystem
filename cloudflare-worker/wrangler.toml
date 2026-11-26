@@ -1,0 +1,5 @@
+name = "turso-php-ecosystem-discord"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+# Set secret: wrangler secret put DISCORD_PUBLIC_KEY
