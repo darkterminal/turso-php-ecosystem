@@ -6,8 +6,6 @@
 
 ![Turso PHP Ecosystem](https://i.imgur.com/EJTo6Zo.png)
 
-
-
 # Turso PHP Ecosystem
 
 This repository is the overview of the Turso SDK family for PHP that I develop and maintain — the installer, the native extension, the HTTP client, a fully typed Platform API client, and the Laravel/Symfony integrations. Everything listed below is current as of November 2026, published on GitHub (and Packagist where applicable), and covered by CI.
@@ -28,16 +26,15 @@ This repository is the overview of the Turso SDK family for PHP that I develop a
 
 ## At a glance
 
-| Package | Description | Latest | Requires |
-|---|---|---|---|
-| [`darkterminal/turso-php-installer`](https://github.com/darkterminal/turso-php-installer) | Installer script for the libSQL native extension (Linux/macOS) | 2.2.2 | PHP 8.2+ |
-| [Turso Client PHP](https://github.com/tursodatabase/turso-client-php) | libSQL native extension (upstream, community SDK) | ext v1.7.0 | PHP + libSQL ext |
-| [`darkterminal/turso-client-http`](https://github.com/darkterminal/turso-client-http) | HTTP client (Hrana-over-HTTP) | 3.0.1 | PHP ^8.3 |
-| [`darkterminal/turso-api-client-php`](https://github.com/darkterminal/turso-api-client-php) | Typed Platform API client (OpenAPI-pinned, 53/53 ops) | 2.1.0 | PHP ^8.3 |
-| [`darkterminal/turso-platform-laravel`](https://github.com/darkterminal/turso-platform-laravel) | Laravel adapter for the Platform API SDK (Facade, config publish) | 1.1.0 | PHP 8.3, Laravel 12 |
-| [`tursodatabase/turso-driver-laravel`](https://github.com/tursodatabase/turso-driver-laravel) | Laravel driver over native libSQL | 1.7.0 | PHP ^8.2 + libSQL ext |
-| [`darkterminal/turso-http-laravel`](https://github.com/darkterminal/turso-http-laravel) | Laravel wrapper for the HTTP client | 1.0.1 | PHP + Laravel |
-| [`tursodatabase/turso-doctrine-dbal`](https://github.com/tursodatabase/turso-doctrine-dbal) | Doctrine DBAL driver over native libSQL | 1.5.0 | PHP ^8.2 + libSQL ext |
+| Package                                                                                         | Description                                                                               | Latest                                                         | Requires              |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------- | --------------------- | -------- |
+| [Turso Client PHP](https://github.com/tursodatabase/turso-client-php)                           | libSQL native extension (upstream, community SDK)                                         | ext v1.7.0                                                     | PHP + libSQL ext      |
+| [`dark                                                                                          | [`darkterminal/turso-php-installer`](https://github.com/darkterminal/turso-php-installer) | Installer script for the libSQL native extension (Linux/macOS) | 2.2.2                 | PHP 8.2+ |
+| terminal/turso-client-http`](https://github.com/darkterminal/turso-client-http)                 | HTTP client (Hrana-over-HTTP)                                                             | 3.0.1                                                          | PHP ^8.3              |
+| [`darkterminal/turso-api-client-php`](https://github.com/darkterminal/turso-api-client-php)     | Typed Platform API client (OpenAPI-pinned, 53/53 ops)                                     | 2.1.0                                                          | PHP ^8.3              |
+| [`darkterminal/turso-platform-laravel`](https://github.com/darkterminal/turso-platform-laravel) | Laravel adapter for the Platform API SDK (Facade, config publish)                         | 1.1.0                                                          | PHP 8.3, Laravel 12   |
+| [`tursodatabase/turso-driver-laravel`](https://github.com/tursodatabase/turso-driver-laravel)   | Laravel driver over native libSQL                                                         | 1.7.0                                                          | PHP ^8.2 + libSQL ext |
+| [`tursodatabase/turso-doctrine-dbal`](https://github.com/tursodatabase/turso-doctrine-dbal)     | Doctrine DBAL driver over native libSQL                                                   | 1.5.0                                                          | PHP ^8.2 + libSQL ext |
 
 ## Extension Installer
 
@@ -83,7 +80,6 @@ Here is the list of Laravel packages that I have created.
 
 - [Turso Driver Laravel](https://github.com/tursodatabase/turso-driver-laravel) - Turso Driver for Laravel with Native libSQL <sup>([Required](#native-extension))</sup>
 - [Turso Platform Laravel](https://github.com/darkterminal/turso-platform-laravel) - Laravel integration for the **Turso Platform API** SDK: auto-discovered Service Provider, publishable config (`turso-platform-config`), `TursoPlatform` Facade — `composer require darkterminal/turso-platform-laravel`
-- [Turso HTTP Laravel](https://github.com/darkterminal/turso-http-laravel) - Turso / libSQL HTTP SDK for Laravel
 
 ## Symfony
 

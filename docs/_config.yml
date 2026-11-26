@@ -1,0 +1,23 @@
+title: Turso PHP Ecosystem
+tagline: PHP packages for libSQL and Turso workflows
+description: >-
+  The official overview of the Turso PHP Ecosystem: installer, native extension,
+  HTTP client, Platform API SDK, and framework integrations for Laravel and Doctrine.
+url: https://darkterminal.github.io
+baseurl: /turso-php-ecosystem
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .jekyll-cache
+  - _site
+  - README.md
