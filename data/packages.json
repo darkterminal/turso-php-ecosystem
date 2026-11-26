@@ -1,0 +1,82 @@
+[
+  {
+    "key": "turso-php-installer",
+    "name": "Turso PHP Installer",
+    "repo": "darkterminal/turso-php-installer",
+    "package": "darkterminal/turso-php-installer",
+    "channel": "#turso-php-installer",
+    "description": "Installer script for the libSQL native PHP extension (Linux/macOS).",
+    "install": "composer global require darkterminal/turso-php-installer",
+    "docs": "https://github.com/darkterminal/turso-php-installer"
+  },
+  {
+    "key": "turso-client-php",
+    "name": "Turso Client PHP",
+    "repo": "tursodatabase/turso-client-php",
+    "package": null,
+    "channel": "#turso-client-php",
+    "description": "Native libSQL extension for PHP (upstream community SDK).",
+    "install": "Install the libSQL extension; see the repository README for platform-specific instructions.",
+    "docs": "https://github.com/tursodatabase/turso-client-php"
+  },
+  {
+    "key": "turso-client-http",
+    "name": "Turso Client HTTP",
+    "repo": "darkterminal/turso-client-http",
+    "package": "darkterminal/turso-client-http",
+    "channel": "#turso-client-http",
+    "description": "Pure PHP HTTP client for Turso/libSQL. No extension required.",
+    "install": "composer require darkterminal/turso-client-http",
+    "docs": "https://github.com/darkterminal/turso-client-http"
+  },
+  {
+    "key": "turso-api-client-php",
+    "name": "Turso API Client PHP",
+    "repo": "darkterminal/turso-api-client-php",
+    "package": "darkterminal/turso-api-client-php",
+    "channel": "#turso-api-client-php",
+    "description": "Typed Turso Platform API client for PHP.",
+    "install": "composer require darkterminal/turso-api-client-php",
+    "docs": "https://github.com/darkterminal/turso-api-client-php"
+  },
+  {
+    "key": "turso-platform-laravel",
+    "name": "Turso Platform Laravel",
+    "repo": "darkterminal/turso-platform-laravel",
+    "package": "darkterminal/turso-platform-laravel",
+    "channel": "#turso-platform-laravel",
+    "description": "Laravel adapter for the Turso Platform API client.",
+    "install": "composer require darkterminal/turso-platform-laravel",
+    "docs": "https://github.com/darkterminal/turso-platform-laravel"
+  },
+  {
+    "key": "turso-driver-laravel",
+    "name": "Turso Driver Laravel",
+    "repo": "tursodatabase/turso-driver-laravel",
+    "package": "tursodatabase/turso-driver-laravel",
+    "channel": "#turso-driver-laravel",
+    "description": "Laravel database driver over native libSQL.",
+    "install": "composer require tursodatabase/turso-driver-laravel",
+    "docs": "https://github.com/tursodatabase/turso-driver-laravel"
+  },
+  {
+    "key": "turso-doctrine-dbal",
+    "name": "Turso Doctrine DBAL",
+    "repo": "tursodatabase/turso-doctrine-dbal",
+    "package": "tursodatabase/turso-doctrine-dbal",
+    "channel": "#turso-doctrine-dbal",
+    "description": "Doctrine DBAL driver over native libSQL.",
+    "install": "composer require tursodatabase/turso-doctrine-dbal",
+    "docs": "https://github.com/tursodatabase/turso-doctrine-dbal"
+  },
+  {
+    "key": "turso-http-laravel",
+    "name": "Turso HTTP Laravel",
+    "repo": "darkterminal/turso-http-laravel",
+    "package": "darkterminal/turso-http-laravel",
+    "channel": "#turso-http-laravel",
+    "description": "Laravel wrapper for the Turso HTTP client.",
+    "install": "composer require darkterminal/turso-http-laravel",
+    "docs": "https://github.com/darkterminal/turso-http-laravel"
+  }
+]

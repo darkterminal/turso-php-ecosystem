@@ -104,6 +104,15 @@ Here is the list of Symfony packages/integrations that I have created.
 - The Laravel adapter is verified with Orchestra Testbench (7 tests / 14 assertions) on PHP 8.3/8.4/8.5 × Laravel 12.
 - Docs for `turso-api-client-php` and `turso-platform-laravel` are mirrored as wikis (repo `docs/` is the source of truth) — API map, architecture notes, troubleshooting.
 
+## Community automation
+
+This repository also hosts lightweight Discord community automation:
+
+- **Release notifier** (`.github/workflows/release-notifier.yml`): checks latest releases for ecosystem repos every 6 hours and posts new releases to Discord via `DISCORD_RELEASE_WEBHOOK`.
+- **Slash-command Worker** (`cloudflare-worker/`): Cloudflare Worker Discord interactions endpoint for `/packages`, `/docs`, `/install`, `/help-template`, and `/support`.
+
+See [`cloudflare-worker/README.md`](cloudflare-worker/README.md) for Worker setup and command registration.
+
 ---
 
 <p align="center">
